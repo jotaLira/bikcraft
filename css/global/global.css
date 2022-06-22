@@ -37,3 +37,16 @@ img {
 img[src$=".jpg"] {
   border-radius: 5px;
 }
+
+.breadcrumb{
+  max-width: 1200px;
+  margin: 2rem auto 0;
+}
+
+.breadcrumb a{
+  transition: 0.3s;
+}
+
+.breadcrumb a:hover{
+  color: var(--cor-11);
+}
