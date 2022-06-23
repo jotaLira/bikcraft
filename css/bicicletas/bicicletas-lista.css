@@ -9,7 +9,7 @@
 .bicicletas-lista ul {
   display: flex;
   gap: 40px;
-  padding: 0;
+  padding: 0 20px 20px 20px;
   max-width: 1400px;
   margin: 0 auto;
   overflow-x: auto;
@@ -70,6 +70,5 @@
   }
   .bicicletas-lista ul {
     gap: 20px;
-    padding: 0 1.5rem;
   }
 }
