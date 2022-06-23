@@ -38,15 +38,16 @@ img[src$=".jpg"] {
   border-radius: 5px;
 }
 
-.breadcrumb{
+.breadcrumb {
   max-width: 1200px;
   margin: 2rem auto 0;
+  padding-left: 40px;
 }
 
-.breadcrumb a{
+.breadcrumb a {
   transition: 0.3s;
 }
 
-.breadcrumb a:hover{
+.breadcrumb a:hover {
   color: var(--cor-11);
 }
