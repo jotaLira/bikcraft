@@ -7,6 +7,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
   padding: 3.75rem;
+  background: url("../../imgs/dec/top-right.svg") no-repeat top 2.5rem right 2.5rem;
 }
 
 .bicicletas-imagem {

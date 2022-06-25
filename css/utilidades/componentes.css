@@ -94,6 +94,10 @@
   background-color: var(--cor-11);
 }
 
+.titulo{
+  background: url("../../imgs/dec/top-right.svg") no-repeat top right 2.5rem;
+}
+
 .titulo p {
   transform: translateX(4px);
 }
