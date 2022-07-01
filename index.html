@@ -29,11 +29,11 @@
   <main class="intro-bg">
     <section class="container intro-container">
       <div class="intro-conteudo">
-        <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+        <h1 class="font-1-xxl cor-0" data-anime="400">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
         <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
         <a href="./bicicletas" class="botao">Escolha a sua</a>
       </div>
-      <picture>
+      <picture data-anime="800" class="fadeInDown">
         <source media="(max-width: 800px)" srcset="./imgs/bicicletas/nimbus.jpg">
         <img src="./imgs/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta">
       </picture>
@@ -132,7 +132,7 @@
           <li>Suporte 08h às 18h</li>
           <li>Cobertura estadual</li>
         </ul>
-        <a class="botao secundario" href="./orcamento.html">Inscreva-se</a>
+        <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
       </div>
 
       <div class="seguros-item">
@@ -146,7 +146,7 @@
           <li>Descontos em parceiros</li>
           <li>Acesso ao Clube Bikcraft</li>
         </ul>
-        <a class="botao" href="./orcamento.html">Inscreva-se</a>
+        <a class="botao" href="./orcamento.html?tipo=seguro&produto=ouro">Inscreva-se</a>
       </div>
 
     </div>
@@ -198,6 +198,9 @@
     </div>
 
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/scripts.js"></script>
+  
 
 </body>
 
